@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header class="fixed_header">
+        <h3>Small Business Grants(SBG)</h3>
+    </header>
+    <div class="container">
+        <header class="other_header">
+            <!-- <div class="google-logo">
+                <img src="./img/google.jpg" alt="Google Logo">
+            </div> -->
+
+            <h1 class="color">Workers federation Program</h1>
+            <h2>Small Business Grants(SBG)</h2>
+            <p class="focus_text">We are 
+                Giving out free grant cash to the Retired, Workers, Divorced, 
+                Disabled, Widows, Old and Hard of hearing.
+            </p>
+        </header>
+        <section>
+            <h3>Get started and apply now!</h3>
+            <div class="form_con">
+                <form action="#">
+                    <div class="input_section">
+                        <label for="">Full name:</label>
+                        <input type="text" name="fullname" id="" required placeholder="full name">
+                    </div>
+                    <div class="input_section">
+                        <label for="cuty">City:</label>
+                        <input type="text" name="cuty" id="cuty" required placeholder="city">
+                    </div>
+                    <div class="input_section">
+                        <label for="age">Age:</label>
+                        <input type="number" name="age" id="age" required placeholder="age">
+                    </div>
+                    <div class="input_section">
+                        <label for="Occupation">Occupation:</label>
+                        <input type="text" name="Occupation" id="Occupation" required placeholder="occupation">
+                    </div>
+                    <div class="input_section">
+                        <label for="Monthly_Income">Monthly Income (how much you earn montly)</label>
+                        <input type="text" name="fullname" id="Monthly_Income" required placeholder="monthly wages">
+                    </div>
+                    <div class="input_section">
+                        <label for="">Do you Own a house?</label>
+                        <select name="Do you Own a house" id="">
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                            <option value="on it">Still building</option>
+                        </select>
+                    </div>
+                    <div class="input_section">
+                        <label for="m_cheque">Do you want Cash or cheque?</label>
+                        <select name="Cash or cheque" id="">
+                            <option value="Yes">Cash</option>
+                            <option value="No">Check</option>
+                        </select>
+                    </div>
+                    <div class="input_section">
+                        <label for="">Phone carrier:</label>
+                        <input type="text" name="carrier" id="" required placeholder="Phone carrier">
+                    </div>
+                    <div class="input_section">
+                        <label for="Phone">Phone:</label>
+                        <input type="number" name="fullname" id="Phone" required placeholder="Phone">
+                    </div>
+                    <div class="input_section">
+                        <label for="">Did you own a car?</label>
+                        <select name="car" id="car">
+                            <option value="Yes">Yes</option>
+                            <option value="Yes">No</option>
+                            <option value="Yes">I used to</option>
+                            <option value="No">I am saving for it</option>
+                        </select>
+                    </div>
+                    <button>Complete and send</button>
+                </form>
+            </div>
+        </section>
+        <h4 class="benefits_text">People that have benefit in this program:</h4>
+        <div class="images">
+            <img src="./img/c1.jpg" alt="Image 1" width="100%">
+            <span>Addrian from Hawaii</span>
+            <br>
+            <img src="./img/c2.jpg" alt="Image 2">
+            <span>Aleex from Idaho</span>
+            <br>
+            <img src="./img/c3.jpg" alt="Image 3">
+            <span>akira noir from Illinois</span>
+            <br>
+            <img src="./img/c4.jpg" alt="Image 4">
+            <span>Adaura from Indiana</span>
+        </div>
+        <form id="form" action="#">
+            <h3>Subscribe to our news</h3>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="mode">Select mode:</label>
+                <select id="mode" name="mode">
+                    <option value="mode1">All new notification</option>
+                    <option value="mode2">Partaining only</option>
+                    <option value="mode3">Relative only</option>
+                </select>
+            </div>
+
+            <button type="submit">Subcribe to us</button>
+        </form>
+        <footer>
+            <p>&copy; 2023 SBG</p>
+
+            <ul class="footer-links">
+                <li><a href="https://policies.google.com/privacy">Privacy Policy</a></li>
+                <li><a href="https://policies.google.com/terms">Terms of Service</a></li>
+                <li><a href="https://support.google.com">Help</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
